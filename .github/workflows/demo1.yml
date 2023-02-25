@@ -25,10 +25,10 @@ jobs:
           echo test, and deploy your project.
           date
   build_on_windows:
-    runs-on:windows-latest
+    runs-on: windows-latest
     steps:
-      - name run multi-line
-        run:
+      - name: run multi-line
+        run: |
           echo "hello github action"
           Get-Date
   
